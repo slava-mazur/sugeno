@@ -1,6 +1,5 @@
 # sugeno
-This project is an enhancement of an anomaly detection method originally published [here]
-(https://scholar.google.com/scholar?oi=bibs&cluster=2172194093366122252&btnI=1&hl=en).
+This project is an enhancement of an anomaly detection method originally published [here](https://scholar.google.com/scholar?oi=bibs&cluster=2172194093366122252&btnI=1&hl=en).
 
 The original method is based on a combination fuzzy sets, integral Sugeno, and kernel techniques and essentially belongs to a class of _unsupervised_ ML algo.
 
@@ -16,20 +15,25 @@ To test the approach we split the entire iris data set to two parts: training an
 
 We then compare the results with a membership feature removed. Obviously, for such a small data set improvement of performace may look inconclusive, but this is done for purely demonstration purposes to present an idea which might be applicable to other not so trivial situations.
 
+
 Here are the results on a testing data set.
+
 No membership feature:
-|pred	  |0	  |1	  |2    |
-|actual	|     |     |		  |
-|:------|----:|----:|----:|
-|0	    |  28	|0	  |0    |
-|1	    |  0	|  13	|5    |
-|2	    |  0	|  0	|  29 | 
+
+
+|pred/act|0	   |1	   |2    |
+|:-------|----:|----:|----:|
+|0	     |28	 |0	   |0    |
+|1	     |0	   |  13 |5    |
+|2	     |  0	 |  0	 |  29 | 
+
 
 Membership wrt Virginica included:
-|pred	  |0	  |1	  |2    |
-|actual	|     |     |		  |
-|:------|----:|----:|----:|
-|0	    |  28	|0	  |0    |
-|1	    |  0	|  17	|1    |
-|2	    |  0	|  1	|  28 | 
+
+
+|pred/act|0	   |1	   |2    |
+|:-------|----:|----:|----:|
+|0	     |  28 |0	   |0    |
+|1	     |  0	 |  17 |1    |
+|2	     |  0	 |  1	 |  28 | 
 
