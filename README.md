@@ -1,7 +1,7 @@
 # sugeno
 This project is an enhancement of an anomaly detection method originally published [here](https://scholar.google.com/scholar?oi=bibs&cluster=2172194093366122252&btnI=1&hl=en).
 
-The original method is based on a combination fuzzy sets, integral Sugeno, and kernel techniques and essentially belongs to a class of _unsupervised_ ML algo.
+The original method is based on a combination of the theories of fuzzy sets, integral Sugeno, and kernel trick and essentially belongs to a class of _unsupervised_ ML algo.
 
 Here we present an approach that allows for application of this method to a _supervised_ ML tasks, like classification or regression. Check out a python/sugeno.ipynb jupyter notebook for details.
 
